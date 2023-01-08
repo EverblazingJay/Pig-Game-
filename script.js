@@ -30,7 +30,7 @@ const init = function () {
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
 };
-// init();
+init();
 
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent =
